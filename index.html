@@ -6,40 +6,119 @@
     <title>Portofolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <body id="home">
+    <!-- Section Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg bg-primary navbar-dark shadow">
       <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Portofolio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+              <a class="nav-link" href="#about">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Me</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="container">
-      <h1>Hello, world!</h1>
+    <!-- End of Section Navbar -->
+
+    <!-- Section Foto  -->
+
+    <div class="jumbotron text-center" style="background-color: #c8e3fd; padding-top: 6rem">
+      <img src="img\foto.jpg" alt="Fachry Nadhil" width="250" class="rounded-circle mb-3 img-thumbnail" />
+      <h1 class="display-4">Fachry Nadhil</h1>
+      <p class="lead">Junior Web Developer</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,96L48,112C96,128,192,160,288,165.3C384,171,480,149,576,117.3C672,85,768,43,864,37.3C960,32,1056,64,1152,64C1248,64,1344,32,1392,16L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
     </div>
+    <!-- End of Section Foto  -->
+    <!-- Section About Me -->
+    <div class="container mb-3" id="about">
+      <h2 class="text-center mb-5">About Me</h2>
+      <div class="row">
+        <div class="col">
+          <p class="fs-5">
+            Qui dolore non nulla magna cillum in consequat ea cillum irure quis ipsum magna. Occaecat qui anim duis fugiat incididunt sit sit irure amet proident elit incididunt. Mollit aute elit id ipsum irure ullamco esse. Ut laborum non
+            mollit qui ut non magna incididunt. In nostrud quis tempor nulla occaecat non et eu Lorem duis aliqua consequat exercitation cupidatat. Aliqua Lorem reprehenderit incididunt fugiat elit veniam occaecat qui.
+          </p>
+        </div>
+        <div class="col-6">
+          <p class="fs-5">
+            Excepteur sint aliquip ad sint ullamco excepteur veniam aliquip non. Est nostrud nisi culpa nulla reprehenderit irure qui sint eiusmod dolore aute cupidatat minim ipsum. Exercitation laborum ut minim veniam ea minim do mollit
+            eiusmod amet aliquip laboris velit occaecat. Lorem excepteur eu et do in minim enim.
+          </p>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#c8e3fd"
+        fill-opacity="1"
+        d="M0,288L48,288C96,288,192,288,288,282.7C384,277,480,267,576,234.7C672,203,768,149,864,133.3C960,117,1056,139,1152,160C1248,181,1344,203,1392,213.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      ></path>
+    </svg>
+    <!-- End Section About Me -->
+    <div id="projects" style="background-color: #c8e3fd">
+      <div class="container">
+        <h2 class="text-center mb-3">Projects</h2>
+        <div class="row">
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card">
+              <img src="https://picsum.photos/75" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="https://picsum.photos/75" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="https://picsum.photos/75" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#c8e3fd"
+        fill-opacity="1"
+        d="M0,96L48,96C96,96,192,96,288,106.7C384,117,480,139,576,138.7C672,139,768,117,864,96C960,75,1056,53,1152,42.7C1248,32,1344,32,1392,32L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+      ></path>
+    </svg>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
